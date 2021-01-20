@@ -1,4 +1,16 @@
 # vue-google-auth
+Super quick Google Firebase sign-in example, based on Vue 3.
+
+App.vue checks if the user is signed in through Google:
+- Displays a "loading" text while establishing connections
+- If the user is logged in, show display name and logout button
+- If the user is not logged, display a login button that authenticates through redirection
+
+Remember to set up and enable Google authentication in the Firebase console on Google.
+
+Configuration stored in .env file, copy settings and save as .env.local. Used in firebase.js.
+
+Environment variables require `VUE_APP` prefix to be loaded in Vue 3.
 
 ## Project setup
 ```
