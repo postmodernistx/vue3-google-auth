@@ -1,6 +1,13 @@
 # vue-google-auth
 Super quick Google Firebase sign-in example, based on Vue 3.
 
+Project created with Vue 3 CLI and added Firebase:
+
+```
+vue create project-name
+npm i firebase -S
+```
+
 App.vue checks if the user is signed in through Google:
 - Displays a "loading" text while establishing connections
 - If the user is logged in, show display name and logout button
